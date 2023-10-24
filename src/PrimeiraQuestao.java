@@ -11,6 +11,7 @@ public class PrimeiraQuestao {
                 System.out.println("O resultado da divisão é: " + resultado);
             } catch (ArithmeticException vish) {
                 System.out.println("Ocorreu um erro na divisão: " + vish.getMessage());
+                vish.printStackTrace();
             }
         }
     }
