@@ -24,14 +24,3 @@ public class QuartaQuestao {
     }
 }
 
-class NonLetterCharacterException extends Exception {
-    public NonLetterCharacterException(String message) {
-        super(message);
-    }
-}
-
-class NonUppercaseLetterException extends Exception {
-    public NonUppercaseLetterException(String message) {
-        super(message);
-    }
-}
